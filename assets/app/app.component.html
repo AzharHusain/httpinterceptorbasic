@@ -1,0 +1,16 @@
+<div class="container-fluid">
+    <div class="col-md-4">
+        <button type="button" class="btn btn-default" (click)="firstButton()">First</button>
+    </div>
+    <div class="col-md-4">
+        <button type="button" class="btn btn-primary" (click)="secondButton()">Second</button>
+    </div>
+    <div class="col-md-4">
+        <button type="button" class="btn btn-success" (click)="thirdButton()">Third</button>
+    </div>
+
+
+    <div class="col-md-12" style="margin-top:40px;">
+        <div class="row well" *ngFor="let item of mylist">{{item}}</div>
+    </div>
+</div>
